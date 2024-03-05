@@ -24,6 +24,12 @@ public class Player : MonoBehaviour
         {
             _isJumping = true;
         }
+
+        // Test only
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            ResetPosition();
+        }
     }
 
     private void FixedUpdate()
@@ -45,5 +51,11 @@ public class Player : MonoBehaviour
         }
 
         _isJumping = false;
+    }
+
+    // Test only
+    private void ResetPosition()
+    {
+        _rb.position = Vector2.zero;
     }
 }
