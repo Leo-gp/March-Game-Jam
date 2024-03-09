@@ -38,6 +38,11 @@ public class Player : MonoBehaviour
         Jump();
     }
 
+    public void Die()
+    {
+        ResetPosition();
+    }
+
     private void Move()
     {
         _rb.velocity = new Vector2(moveSpeed, _rb.velocity.y);
@@ -53,9 +58,9 @@ public class Player : MonoBehaviour
         _isJumping = false;
     }
 
-    // Test only
     private void ResetPosition()
     {
         _rb.position = Vector2.zero;
+        _rb.velocity = Vector2.zero;
     }
 }
