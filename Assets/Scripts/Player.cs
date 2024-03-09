@@ -10,13 +10,13 @@ public class Player : MonoBehaviour
 
     private bool _isJumping;
 
-    private Rigidbody2D _rb;
+    public Rigidbody2D Rb { get; private set; }
 
-    private bool IsGrounded => _rb.IsTouching(groundFilter);
+    private bool IsGrounded => Rb.IsTouching(groundFilter);
 
     private void Awake()
     {
-        _rb = GetComponent<Rigidbody2D>();
+        Rb = GetComponent<Rigidbody2D>();
     }
 
     private void Update()
@@ -46,14 +46,14 @@ public class Player : MonoBehaviour
 
     private void Move()
     {
-        _rb.velocity = new Vector2(moveSpeed, _rb.velocity.y);
+        Rb.velocity = new Vector2(moveSpeed, Rb.velocity.y);
     }
 
     private void Jump()
     {
         if (_isJumping && IsGrounded)
         {
-            _rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+            Rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
         }
 
         _isJumping = false;
@@ -61,7 +61,7 @@ public class Player : MonoBehaviour
 
     private void ResetPosition()
     {
-        _rb.position = resetPosition;
-        _rb.velocity = Vector2.zero;
+        Rb.position = resetPosition;
+        Rb.velocity = Vector2.zero;
     }
 }

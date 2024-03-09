@@ -1,13 +1,10 @@
 using UnityEngine;
 
 [RequireComponent(typeof(Collider2D))]
-public class PlayerCollideKiller : MonoBehaviour
+public class PlayerCollideKiller : PlayerCollideBase
 {
-    private void OnCollisionEnter2D(Collision2D other)
+    protected override void OnPlayerCollided(Player player)
     {
-        if (other.gameObject.TryGetComponent(out Player player))
-        {
-            player.Die();
-        }
+        player.Die();
     }
 }
