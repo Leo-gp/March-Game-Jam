@@ -6,6 +6,7 @@ public class Player : MonoBehaviour
     [SerializeField] private float moveSpeed;
     [SerializeField] private float jumpForce;
     [SerializeField] private ContactFilter2D groundFilter;
+    [SerializeField] private Vector2 resetPosition;
 
     private bool _isJumping;
 
@@ -60,7 +61,7 @@ public class Player : MonoBehaviour
 
     private void ResetPosition()
     {
-        _rb.position = Vector2.zero;
+        _rb.position = resetPosition;
         _rb.velocity = Vector2.zero;
     }
 }
