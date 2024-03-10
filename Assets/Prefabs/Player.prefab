@@ -13,6 +13,9 @@ GameObject:
   - component: {fileID: 3758340984951759595}
   - component: {fileID: 9495103471894480}
   - component: {fileID: 8199763696411552242}
+  - component: {fileID: 1380496203561829995}
+  - component: {fileID: 8137782549128796363}
+  - component: {fileID: 1795740246799685568}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -171,20 +174,43 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8cac959284a85e54aa35b6979deb88cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 8
-  jumpForce: 40
-  groundFilter:
-    useTriggers: 0
-    useLayerMask: 1
-    useDepth: 0
-    useOutsideDepth: 0
-    useNormalAngle: 1
-    useOutsideNormalAngle: 0
-    layerMask:
-      serializedVersion: 2
-      m_Bits: 1
-    minDepth: 0
-    maxDepth: 0
-    minNormalAngle: 75
-    maxNormalAngle: 105
   resetPosition: {x: 4, y: 2}
+--- !u!114 &1380496203561829995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8707173527168391597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fd93a8ec0184d3439dc20f5391b90c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8137782549128796363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8707173527168391597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8b3ce36b18741799e8202437e6f0924, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 10
+--- !u!114 &1795740246799685568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8707173527168391597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f3ca094072e41fda1051b8811befd29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jumpForce: 40
+  groundFilterConfig: {fileID: 11400000, guid: ce8e305ddb6f23643a479deb73eb8c90, type: 2}

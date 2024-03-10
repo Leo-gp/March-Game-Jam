@@ -2,11 +2,10 @@ using UnityEngine;
 
 public class PlayerCollideRepeller : PlayerCollideBase
 {
-    [SerializeField] private Vector2 repulsionForce;
+    [SerializeField] private Vector2 repulsion;
 
-    protected override void OnPlayerCollided(Player player)
+    protected override void OnPlayerCollided(PlayerController playerController)
     {
-        player.Rb.velocity = Vector2.zero;
-        player.Rb.AddForce(repulsionForce, ForceMode2D.Impulse);
+        playerController.Repel(repulsion);
     }
 }

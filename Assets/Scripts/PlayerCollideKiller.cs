@@ -3,8 +3,8 @@ using UnityEngine;
 [RequireComponent(typeof(Collider2D))]
 public class PlayerCollideKiller : PlayerCollideBase
 {
-    protected override void OnPlayerCollided(Player player)
+    protected override void OnPlayerCollided(PlayerController playerController)
     {
-        player.Die();
+        playerController.Die();
     }
 }
