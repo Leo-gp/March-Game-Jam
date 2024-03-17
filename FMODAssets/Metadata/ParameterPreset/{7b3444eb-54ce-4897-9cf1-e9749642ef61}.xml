@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{7b3444eb-54ce-4897-9cf1-e9749642ef61}">
+		<property name="name">
+			<value>Area</value>
+		</property>
+		<relationship name="folder">
+			<destination>{ee74306a-dba3-48fc-b6ff-60d6fc9bace2}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{a4abc310-0c76-43ee-8a02-f90d7efb0035}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{a4abc310-0c76-43ee-8a02-f90d7efb0035}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>6</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Hell1</value>
+			<value>Hell2</value>
+			<value>Limbo1</value>
+			<value>Limbo2</value>
+			<value>Heaven1</value>
+			<value>Heaven2</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
