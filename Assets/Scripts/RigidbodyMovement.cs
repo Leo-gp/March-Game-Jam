@@ -25,7 +25,6 @@ public class RigidbodyMovement : MonoBehaviour
         {
             return;
         }
-
         var desiredYAngle = _rb.velocity.x > 0 ? 0f : _rb.velocity.x < 0 ? 180f : transform.eulerAngles.y;
         var t = transform;
         var eulerAngles = t.eulerAngles;

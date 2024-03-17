@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{19d97c1c-9138-4529-8df4-6989d5bd61b9}">
+		<property name="assetPath">
+			<value>Music/Limbo_2.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>57.600000000000001</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{e11d71fa-28c8-4a83-b10a-4647fcb2f8b4}</destination>
+		</relationship>
+	</object>
+</objects>
