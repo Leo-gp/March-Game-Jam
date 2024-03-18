@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{0150b572-a676-45de-b414-78c0a30242f2}">
+		<property name="name">
+			<value>Area Xfade</value>
+		</property>
+		<relationship name="folder">
+			<destination>{ee74306a-dba3-48fc-b6ff-60d6fc9bace2}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{6ca0243c-867e-4798-9c35-029aff605a04}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{6ca0243c-867e-4798-9c35-029aff605a04}">
+		<property name="maximum">
+			<value>6</value>
+		</property>
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>
