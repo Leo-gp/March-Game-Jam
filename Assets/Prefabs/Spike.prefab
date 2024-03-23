@@ -166,7 +166,7 @@ MonoBehaviour:
       Data2: 1149604599
       Data3: 1373794197
       Data4: 120495112
-    Path: event:/Spike
+    Path: event:/Sounds/Spike
   Event: 
   PlayEvent: 9
   StopEvent: 0

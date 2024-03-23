@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6688792183589888494}
   - component: {fileID: 4232877133239222008}
+  - component: {fileID: 4782254135154926017}
   m_Layer: 0
   m_Name: MusicManager
   m_TagString: Untagged
@@ -47,11 +48,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: 2118158112
-      Data2: 1312004479
-      Data3: -607480689
-      Data4: -1169008748
-    Path: event:/Music
+      Data1: 1750131569
+      Data2: 1238598575
+      Data3: 739504542
+      Data4: 186763106
+    Path: event:/Music/MusicLayered
   Event: 
   PlayEvent: 1
   StopEvent: 0
@@ -59,9 +60,23 @@ MonoBehaviour:
   TriggerOnce: 0
   Preload: 0
   AllowNonRigidbodyDoppler: 0
-  Params:
-  - Name: Area
-    Value: 0
+  Params: []
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
+--- !u!114 &4782254135154926017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8665974749121115738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b0e04e2572f9a940a47465f6f3c2f00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Parameter: Area Xfade
+  TriggerEvent: 1
+  Value: 0

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EventFolder" id="{49fbc72e-a202-450b-ab02-1b442ca01681}">
+		<property name="name">
+			<value>NowEnteringUniverse</value>
+		</property>
+		<relationship name="folder">
+			<destination>{cd38c3bc-48c2-4c7a-afac-42120f8d846c}</destination>
+		</relationship>
+	</object>
+</objects>
