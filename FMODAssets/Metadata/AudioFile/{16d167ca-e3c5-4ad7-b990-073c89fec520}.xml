@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="AudioFile" id="{d1094e44-d7d4-49e3-bc45-6bd8c68aa1d6}">
+	<object class="AudioFile" id="{16d167ca-e3c5-4ad7-b990-073c89fec520}">
 		<property name="assetPath">
-			<value>Music/Heaven_1.wav</value>
+			<value>Music/Limbo_2.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

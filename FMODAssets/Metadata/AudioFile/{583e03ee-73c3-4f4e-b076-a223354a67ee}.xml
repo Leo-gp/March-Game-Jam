@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="AudioFile" id="{a7ffecd6-3578-4ef5-a98f-ccbdc21b2bfd}">
+	<object class="AudioFile" id="{583e03ee-73c3-4f4e-b076-a223354a67ee}">
 		<property name="assetPath">
 			<value>Music/Heaven_2.wav</value>
 		</property>
