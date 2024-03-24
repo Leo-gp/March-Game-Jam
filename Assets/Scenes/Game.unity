@@ -23135,7 +23135,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6, y: 7.5000005, z: -10}
+  m_LocalPosition: {x: 10, y: 8.700001, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -89408,7 +89408,7 @@ Transform:
   m_GameObject: {fileID: 2034864738}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6, y: 7.5000005, z: -10}
+  m_LocalPosition: {x: 10, y: 8.700001, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -94880,11 +94880,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8452079201176414384, guid: 1395ed2463822eb4ba29d10d6f753a2f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8452079201176414384, guid: 1395ed2463822eb4ba29d10d6f753a2f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.5
+      value: 3.7
       objectReference: {fileID: 0}
     - target: {fileID: 8452079201176414384, guid: 1395ed2463822eb4ba29d10d6f753a2f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -94920,7 +94920,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8707173527168391597, guid: 1395ed2463822eb4ba29d10d6f753a2f, type: 3}
       propertyPath: m_Name
-      value: Player
+      value: Mortimer
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

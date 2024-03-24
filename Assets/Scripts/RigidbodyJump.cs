@@ -8,7 +8,7 @@ public class RigidbodyJump : MonoBehaviour
 
     private Rigidbody2D _rb;
 
-    private bool IsGrounded => _rb.IsTouching(groundFilterConfig.ContactFilter);
+    public bool IsGrounded => _rb.IsTouching(groundFilterConfig.ContactFilter);
 
     private void Awake()
     {

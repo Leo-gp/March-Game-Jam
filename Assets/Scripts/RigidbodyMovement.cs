@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
@@ -7,6 +8,8 @@ public class RigidbodyMovement : MonoBehaviour
     [SerializeField] private bool disableFacingDirectionChange;
 
     private Rigidbody2D _rb;
+
+    public bool IsMoving => Math.Abs(_rb.velocity.x) > 0.1f;
 
     private void Awake()
     {
@@ -25,6 +28,7 @@ public class RigidbodyMovement : MonoBehaviour
         {
             return;
         }
+
         var desiredYAngle = _rb.velocity.x > 0 ? 0f : _rb.velocity.x < 0 ? 180f : transform.eulerAngles.y;
         var t = transform;
         var eulerAngles = t.eulerAngles;
