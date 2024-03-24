@@ -164,7 +164,7 @@ MonoBehaviour:
       Data2: 1177707028
       Data3: 1740051109
       Data4: -1051561267
-    Path: event:/JumpPad
+    Path: event:/Sounds/JumpPad
   Event: 
   PlayEvent: 5
   StopEvent: 0
